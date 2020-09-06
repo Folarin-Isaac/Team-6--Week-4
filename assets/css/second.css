@@ -1,0 +1,14 @@
+/* =========================================================== */
+/* ========== MAIN STYLESHEET FOR LEARNING KIDS ============== */
+/* =========================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* ================== GENERAL STYLING ======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Indie Flower', cursive;
+}
