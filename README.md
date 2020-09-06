@@ -22,6 +22,6 @@ NOTE: To navigate the Mobile UI
   
   Then tap through the Onboarding Slides
   
-  Then Tap on “CLICK HERE TO SIGN UP”
+  Then Tap on “SIGN UP”
   
   Then Tap on Continue 
