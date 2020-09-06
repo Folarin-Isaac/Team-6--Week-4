@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4F9A"
+    tools:context=".InputAge">
+
+    <ImageView
+        android:id="@+id/two_kids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/two_kids_icon"/>
+
+    <TextView
+        android:id="@+id/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/hint_input_age"/>
+
+    <TextView
+        android:id="@+id/input_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_text"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/hint_age"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_text1"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:inputType="text"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/child_name"
+        android:background="@drawable/white_background"
+        android:textSize="15sp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/submit_password"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_name"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/terms_background"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/submit"
+        android:textAllCaps="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
