@@ -25,3 +25,15 @@ NOTE: To navigate the Mobile UI
       Then Tap on “SIGN UP”
   
       Then Tap on Continue 
+      
+
+Backend Links
+
+API
+https://learning-kids.herokuapp.com/api/
+
+API Documentation
+https://learning-kids.herokuapp.com/api/documentation/
+
+Web Link
+https://learning-kids.herokuapp.com/
