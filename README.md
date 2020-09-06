@@ -18,10 +18,10 @@ https://xd.adobe.com/view/47c7bec6-0a5a-47ac-8270-8b3d1204a53d-1294/
 
 NOTE: To navigate the Mobile UI
 
-  Tap on the Splash to continue
+      Tap on the Splash to continue
   
-  Then tap through the Onboarding Slides
+      Then tap through the Onboarding Slides
   
-  Then Tap on “SIGN UP”
+      Then Tap on “SIGN UP”
   
-  Then Tap on Continue 
+      Then Tap on Continue 
